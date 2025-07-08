@@ -1,3 +1,5 @@
+
+
 .open-sans-normal{
     font-family: 'open sans', sans-serif;
     font-style: auto;
@@ -21,6 +23,7 @@
     cursor: pointer;
     font-size: 20px;
     font-weight: 600;
+    transition: background-color 0.3s ease;
 }
 
 /* nav style */
@@ -53,15 +56,45 @@ nav ul li a{
     text-decoration: none;
     font-size: 20px;
 }
+/* header */
+.header{
+    background-image:url(../images/developer.png), url(../images/header_bg.png);
+    background-position: left top, bottom right;
 
+}
 
+/* banner style */
 
+.banner-greetings{
+    font-size: 45px;
+    font-weight:600;
+}
 
+.banner-title{
+    font-size: 70px;
+    font-weight: 700;
+}
 
+.banner-profile-pic{
+    width: 580px;
+}
 
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+}
 
+.banner-content{
+   max-width: 580px;
+}
 
-
+header{
+    
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #fd6f0a19;
+}
 
 
 
